@@ -31,7 +31,7 @@ class DialogBox extends StatelessWidget{
                   onPressed: onSave ,
                   text:"Save",
               ),
-SizedBox(width: 12,),
+SizedBox(width: 12),
               //cancel but
               MyButton(
                   onPressed: onCancel,
