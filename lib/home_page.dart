@@ -63,7 +63,6 @@ class _HomePageState extends State<HomePage> {
       );
     },
     );
-    db.updateDataBase();
   }
   void deleteTask(int index){
 setState(() {

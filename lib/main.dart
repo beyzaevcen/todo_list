@@ -5,10 +5,10 @@ import 'package:hive_flutter/hive_flutter.dart';
 void main() async {
 
   //initial the hive
-  Hive.initFlutter();
+  await Hive.initFlutter();
 
   //open a box
-  var box= Hive.box("mybox");
+  var box= await Hive.openBox("mybox");
   runApp(const MyApp());
 }
 class MyApp extends StatelessWidget{
